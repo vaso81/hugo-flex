@@ -37,15 +37,13 @@ menu:
     - name: Posts
       url: post/
       weight: 2
-    - name: Tags
-      url: tags/
+    - name: Roman Numerals
+      url: roman-numerals-converter/
       weight: 3
     - name: Categories
       url: categories/
       weight: 4
-    - name: RSS
-      url: index.xml
-      weight: 5
+
 
 mediaTypes:
   font/woff2:
