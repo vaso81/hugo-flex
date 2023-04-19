@@ -35,12 +35,18 @@ menu:
     - name: Posts
       url: post/
       weight: 2
-    - name: Roman Numerals
+    - name: Numerals Converter
       url: roman-numerals-converter/
       weight: 3
+    - name: Date Converter
+      url: roman-numerals-date-converter/
+      weight: 4
     - name: Categories
       url: categories/
-      weight: 4
+      weight: 5
+    - name: RSS
+      url: index.xml
+      weight: 5
 
 
 mediaTypes:
