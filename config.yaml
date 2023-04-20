@@ -41,12 +41,16 @@ menu:
     - name: Date Converter
       url: roman-numerals-date-converter/
       weight: 4
+    - name: Chart Genenerator
+      url: roman-numerals-chart-generator/
+      weight: 5
+     
     - name: Categories
       url: categories/
-      weight: 5
+      weight: 6
     - name: RSS
       url: index.xml
-      weight: 5
+      weight: 7
 
 
 mediaTypes:
