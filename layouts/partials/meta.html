@@ -1,13 +1,11 @@
 <meta charset="utf-8">
 
-{{ if .Paginator }}
-  {{ if .Paginator.HasPrev }}
-  {{ end }}
-{{ else if .Params.noindex }}
+
+{{ if .Params.noindex }}
   <meta name="robots" content="noindex, nofollow, noarchive">
-{{ else }}
-  <meta name="robots" content="noindex, noarchive">
 {{ end }}
+
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
